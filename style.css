@@ -6,11 +6,13 @@
 
 
 body{
-    background: linear-gradient(to right, green, green) 0 0 / 20% 10%
-    no-repeat,
-              linear-gradient(to right, blue, blue) 0 100% / 20% 10% no-repeat;
-  /* Use background-size to adjust the height of the bars */
-   background-size: 20% 10%, 20% 10%;
+    height:100vh;
+    background:
+        linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%)) 0 0 / 20% 10% no-repeat,
+        linear-gradient(to right, blue, blue) 0 100% / 20% 10% no-repeat;
+    background-size: 30% 70%, 20% 10%;
+    border-radius: 10px 10px 10px 0; /* Apply border radius to the top corners */
+
 }
 .container{
     
