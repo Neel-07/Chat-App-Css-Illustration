@@ -18,7 +18,7 @@ For the Chat app CSS illustration project, my main objective was to craft a visu
   
 ### Screenshot
 
-![](./order-card-component-main/images/desktop-design.jpg)
+![](./images/desktop-design.jpg)
 
 ### Links
 - Live Site URL: [Click here](https://neel-07.github.io/Product-preview-card-component/)

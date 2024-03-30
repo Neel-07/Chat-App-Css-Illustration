@@ -6,13 +6,13 @@
 
 
 body{
-    height:100vh;
+    height: 100vh;
     background:
-        linear-gradient(to bottom,hsl(289, 100%, 72%), hsl(264, 100%, 61%)) 0 0 / 20% 10% no-repeat;
-        /* linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%)) 0 100% / 20% 10% no-repeat; */
+        linear-gradient(to bottom, hsl(289, 100%, 72%), hsl(264, 100%, 61%)) 0 0 / 20% 10% no-repeat,
+        linear-gradient(to top, hsl(264, 100%, 61%), hsl(289, 100%, 72%)) 100% 100% / 100% 100% no-repeat;
     background-size: 30% 70%, 20% 10%;
-    border-radius: 0 0 500px 500px; 
-
+    border-radius: 20px;
+    overflow: hidden; 
 }
 .container{
     
