@@ -37,5 +37,12 @@ body::before {
     opacity: 0.05;
   }
 .container{
-    
+    display:flex;
+}
+
+.phone{
+  height:700px;
+  width:200px;
+  background-color:hsl(270, 20%, 96%);
+  border:10px solid hsl(0, 0%, 100%);
 }
